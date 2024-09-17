@@ -64,7 +64,7 @@ for epsilon in epsilons:
   clf = GaussianNB(bounds=bounds, epsilon=epsilon)
   clf.fit(X_train, y_train)
 
-  accuracy.appended(clf.score(X_test, y_test))
+  accuracy.append(clf.score(X_test, y_test))
 
 plt.semilogx(epsilons, accuracy)
 plt.title("Differentially private Naive Bayes accuracy")
