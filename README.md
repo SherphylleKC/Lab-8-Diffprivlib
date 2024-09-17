@@ -16,9 +16,13 @@ In this workshop, we will experience Diffprivlib v0.4. You can follow the below 
 codes to implement your environment in ***Python***.
 <br><br>
 
-**Step 1**: Install the following libraries within the PyCharm Terminal by inputting the following commands to avoid any errors:
+**Step 1**: Install the following libraries within the Terminal by inputting the following commands to avoid any errors:
+
 - *Diffprivlib*; command to install is `pip install diffprivlib`.
-- *Matplotlib*; command to install is `pip install matplotlib`.
+- *Matplotlib*; command to install is `pip install matplotlib`. <br>
+
+You can use any coding software like PyCharm or VSCode as long as it can run your python scripts
+<br>
 
 **Step 2**: Download Iris dataset
 ```py
